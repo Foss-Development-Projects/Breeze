@@ -1,0 +1,29 @@
+{
+  "name": "breeze",
+  "version": "1.0.0",
+  "description": "Parallax Website",
+  "main": "vite.config.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "rome format --write src",
+    "lint": "rome check src",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "Parallax Website"
+  ],
+  "author": "Foss",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^5.42.2"
+  },
+  "devDependencies": {
+    "rome": "^11.0.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vitest": "^0.27.2"
+  }
+}
